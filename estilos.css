@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: #33D8F9;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+main {
+    margin-top: 150px;
+}
+
+main .contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+article {
+    margin: 40px 0px 40px 0px;
+    background: #f4f4f4;
+    padding: 30px 10px;
+    border-bottom: 2px solid rgba(51,216,249,.4);
+}
+
+article h2 {
+    margin: 0px 0px 20px 0px;
+    color: cadetblue;
+}
+
+article p {
+    line-height: 28px;
+    font-weight: 100;
+}
+
+/*estilos del video*/
+
+.fm-video {
+    width: 100%;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,.5);
+}
+
+.video-js .vjs-slider,
+.video-js .vjs-load-progress {
+    background: #1d87d8;
+}
+
+.video-js .vjs-control {
+    background: #33D8F9;
+}
+
+.video-js .vjs-control:hover {
+    background: #fff;
+    color: #000;
+}
+
+.fm-video .video-js:hover .vjs-big-play-button {
+    background: rgba(0,0,0,.2);
+}
+
+.fm-video .vjs-big-play-button {
+    background: rgba(0,0,0,.2);
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: none;
+    line-height: 100px;
+}
+
+.fm-video .vjs-big-play-button:hover {
+    background: rgba(0,0,0,.7);
+}
+
+header .titulo {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    border-bottom: 2px solid rgba(255,255,255,.4);
+}
+
